@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Tool</title>
+  <!--CSS reset and style sheet-->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <ul>
+            <!--Link to highscores page-->
+            <li><a href="#">Highscores</a></li>
+            <!--Timer-->
+            <li style="float:right" id="timeEl"> Time: 0 </li>
+        </ul>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="flex-item item1">
+                <p class="item1-content" id="questionContainer">Try to answer the following code-related questions
+                    within the time limit. Keep in mind that incorrect answers will penalize
+                    your scoretime by ten seconds!
+                </p>
+            </div>
+            <div class="flex-item item2">
+                <form>
+                    <input type="text" id="scorename" value="name here">
+                </form>
+                <ol>
+                    <button class="button" id="start-but">Start</button>
+                    <button class="button buttonVis" id="but1">No</button>
+                    <button class="button buttonVis" id="but2">No</button>
+                    <button class="button buttonVis" id="but3">No</button>
+                    <button class="button buttonVis" id="but4">No</button>
+                </ol>
+            </div>
+            <div class="flex-item item3">
+                <p class="item3-content" id="result">Result</p>
+            </div>
+        </div>
+    </main>
+    <!--Linked Javascript file-->   
+    <script src="./assets/js/script.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  input, textarea, button, select {
+    border: none;
+    outline: none;
+  }
+  
+  html, body, input, textarea, select, button {
+    box-sizing: border-box;
+  }

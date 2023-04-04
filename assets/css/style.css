@@ -1,0 +1,98 @@
+/* BG for header */
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: #9252db;
+  }
+
+/* Moves timer to left */
+li {
+    float: left;
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+/* Highscore style */
+li a {
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+/*-----------------------------------------------------------*/
+
+/* Main Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Assigns item to flex class */
+.flex-item {
+  justify-content: center;
+}
+
+/* Container for questions */
+.item1 {
+  margin-top: 10px;
+}
+
+/* Styling for questions */
+.item1-content {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+  max-width: 400px;
+}
+
+#scorename {
+  display: none;
+}
+
+/* Container for answers/choices */
+.item2 {
+  min-width: 0px;
+  margin: 2px;
+}
+
+
+
+/* Container for right or wrong */
+.item3 {
+  margin: 10px;
+  min-width: 300px;
+}
+
+/* Styling the right or wrong text */
+.item3-content {
+  text-align: left;
+  padding-left: 8px;
+  border-top: 1px solid #969696;
+  display: none;
+}
+
+/*-----------------------------------------------------------*/
+
+/* Button Styling */
+.button {
+  background-color: #9252db;
+  border: none;
+  color: white;
+  padding: 8px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttonVis {
+  display: none;
+}
